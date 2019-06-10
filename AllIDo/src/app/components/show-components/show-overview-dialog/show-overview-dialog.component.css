@@ -1,0 +1,29 @@
+.show-card {
+  font-family: monospace;
+
+  margin: 1em;
+  background-color: grey;
+  cursor: pointer;
+  background-color: transparent;
+  color: wheat;
+  text-align: center;
+}
+
+.show-card-title {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.tiles {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  margin: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-image {
+  width: 300px;
+  height: 200px;
+}

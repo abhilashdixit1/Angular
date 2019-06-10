@@ -1,0 +1,11 @@
+<mat-card class="show-card">
+  <mat-card-title class="show-card-title">{{
+    data.show.showName
+  }}</mat-card-title>
+  <img
+    class="main-image"
+    src="{{ data.show.showPoster }}"
+    alt="{{ data.show.showName }}"
+  />
+  <mat-card-content>{{ data.show.showReview }}</mat-card-content>
+</mat-card>

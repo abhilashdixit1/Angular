@@ -1,0 +1,15 @@
+.container {
+  color: wheat;
+  display: flex;
+  flex-direction: row;
+  font-family: monospace;
+}
+
+.right {
+  width: 70%;
+  text-align: end;
+}
+
+.left {
+  width: 30%;
+}

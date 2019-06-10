@@ -1,0 +1,9 @@
+<mat-card class="show-card" (click)="openMovieDialog()">
+  <mat-card-title class="show-card-title">{{ movie.movieName }}</mat-card-title>
+  <img
+    class="main-image"
+    src="{{ movie.moviePoster }}"
+    alt="{{ movie.movieName }}"
+  />
+  <mat-card-content>{{ movie.movieReview }}</mat-card-content>
+</mat-card>

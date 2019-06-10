@@ -1,0 +1,9 @@
+<mat-card class="show-card" (click)="openShowDialog()">
+  <mat-card-title class="show-card-title">{{ show.showName }}</mat-card-title>
+  <img
+    class="main-image"
+    src="{{ show.showPoster }}"
+    alt="{{ show.showName }}"
+  />
+  <mat-card-content>{{ show.showReview }}</mat-card-content>
+</mat-card>
